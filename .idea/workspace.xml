@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0f75bf-46ea-48cc-a1dd-7dcb4e3b2f78" name="Changes" comment="create two files">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6e0f75bf-46ea-48cc-a1dd-7dcb4e3b2f78" name="Changes" comment="first step to find solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.test_code.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
@@ -75,11 +76,29 @@
       <option name="project" value="LOCAL" />
       <updated>1727215390417</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="edit two files from project Python 3">
+      <option name="closed" value="true" />
+      <created>1727279974590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727279974590</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first step to find solution">
+      <option name="closed" value="true" />
+      <created>1727293594155</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727293594155</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create two files" />
-    <option name="LAST_COMMIT_MESSAGE" value="create two files" />
+    <MESSAGE value="edit two files from project Python 3" />
+    <MESSAGE value="first step to find solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="first step to find solution" />
   </component>
 </project>

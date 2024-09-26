@@ -15,19 +15,27 @@ def solution(s):
     r = []
     u = []
 
-    for i in range(0, len(s), 2):
-        t.append(s[i])
+    #for i in range(0, len(s), 2):
+        #t.append(s[i])
+
+    t = [s[i] for i in range(0, len(s), 2)]
 
     if len(s) % 2 != 0:
         for i in range(1, len(s), 2):
             r.append(s[i])
         r.append("_")
+
+    #    r = [s[i] for i in range(1, len(s), 2) and r.append("_") if len(s) % 2 != 0]
+
     else:
         for i in range(1, len(s), 2):
             r.append(s[i])
 
     for i in range(len(t)):
         u.append(t[i] + r[i])
+
+   # u = [u.append(t[i] + r[i]) for i in range(len(t))]
+
     return u
 
 

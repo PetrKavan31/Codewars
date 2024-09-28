@@ -31,18 +31,18 @@ def solution(s):
         for i in range(1, len(s), 2):
             r.append(s[i])
 
-    for i in range(len(t)):
-        u.append(t[i] + r[i])
+    for i, t-element in enumerate(t):
+        u.append(t-element + r[i])
 
    # u = [u.append(t[i] + r[i]) for i in range(len(t))]
 
     return u
 
 
-print(solution('abcd'))
-print(solution('abc'))
-print(solution('a'))
-print(solution(""))
+assert solution('abcdef') == ['ab', 'cd', 'ef']
+assert solution('abc') == ['ab', 'c_']
+assert solution('x') == ['x_']
+assert solution("") == []
 
 
 

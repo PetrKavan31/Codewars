@@ -9,6 +9,7 @@
 # * 'abcdef' => ['ab', 'cd', 'ef']
 
 
+# ------------------------ MY SOLUTION: ----------------------------------------
 def solution(s):
     if len(s) % 2 != 0:
         s += "_"
@@ -24,5 +25,13 @@ assert solution('abc') == ['ab', 'c_']
 assert solution('x') == ['x_']
 assert solution("") == []
 
+# ---------------------------- best practices, for example: ---------------------
 
 
+def solution(s):
+    result = []
+    if len(s) % 2:
+        s += '_'
+    for i in range(0, len(s), 2):
+        result.append(s[i:i+2])
+    return result

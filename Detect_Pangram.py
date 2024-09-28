@@ -27,4 +27,3 @@ def is_pangram(s):
         if char not in s:
             return False
     return True
-

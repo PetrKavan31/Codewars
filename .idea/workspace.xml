@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0f75bf-46ea-48cc-a1dd-7dcb4e3b2f78" name="Changes" comment="create list comprehension">
+    <list default="true" id="6e0f75bf-46ea-48cc-a1dd-7dcb4e3b2f78" name="Changes" comment="edit assert solution">
+      <change afterPath="$PROJECT_DIR$/Split_Strings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727348202050</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="edit assert solution">
+      <option name="closed" value="true" />
+      <created>1727544793223</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727544793223</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -128,6 +138,7 @@
     <MESSAGE value="find solution" />
     <MESSAGE value="edit text" />
     <MESSAGE value="create list comprehension" />
-    <option name="LAST_COMMIT_MESSAGE" value="create list comprehension" />
+    <MESSAGE value="edit assert solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit assert solution" />
   </component>
 </project>

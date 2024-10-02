@@ -9,7 +9,7 @@
 # The input will always be valid (numbers will be an array of length 2 or greater, and all of the items will be numbers;
 # target will always be the sum of two different items from that array).
 #
-# Based on: https://leetcode.com/problems/two-sum/ 
+# Based on: https://leetcode.com/problems/two-sum/
 
 def two_sum(numbers, target):
     for i in range(len(numbers)):
@@ -22,5 +22,3 @@ def two_sum(numbers, target):
 
 assert two_sum([1, 2, 3], 4) == (0, 2) or (2, 0)
 assert two_sum([3, 2, 4], 4) == (1, 2) or (2, 1)
-
-

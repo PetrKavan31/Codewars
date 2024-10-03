@@ -1,26 +1,32 @@
-# Two sum
+# Find the odd int
 
-# Write a function that takes an array of numbers (integers for the tests) and a target number.
-# It should find two different items in the array that, when added together, give the target value.
-# The indices of these items should then be returned in a tuple / list (depending on your language) like so: (index1, index2).
+# Given an array of integers, find the one that appears an odd number of times.
 #
-# For the purposes of this kata, some tests may have multiple answers; any valid solutions will be accepted.
+# There will always be only one integer that appears an odd number of times.
 #
-# The input will always be valid (numbers will be an array of length 2 or greater, and all of the items will be numbers;
-# target will always be the sum of two different items from that array).
-#
-# Based on: https://leetcode.com/problems/two-sum/ 
+# Examples
+# [7] should return 7, because it occurs 1 time (which is odd).
+# [0] should return 0, because it occurs 1 time (which is odd).
+# [1,1,2] should return 2, because it occurs 1 time (which is odd).
+# [0,1,0,1,0] should return 0, because it occurs 3 times (which is odd).
+# [1,2,2,3,3,3,4,3,3,3,2,2,1] should return 4, because it appears 1 time (which is odd).
 
-def two_sum(numbers, target):
-    for i in range(len(numbers)):
-        a = target - numbers[i]
-        for j in range(len(numbers)):
-            if numbers[j] == a:
-                break
-    return (i,j)
+def find_it(a):
+    for i in range(len(a)):
+        count = 0
+        for j in range(len(a)):
+            if a[i] == a[j]:
+               # if j != i:
+                count += 1
+        if count % 2 != 0:
+            break
+    return a[i]
 
 
-assert two_sum([1, 2, 3], 4) == (0, 2) or (2, 0)
-assert two_sum([3, 2, 4], 4) == (1, 2) or (2, 1)
+assert find_it([7]) == 7
+assert find_it([0]) == 0
+assert find_it([1, 1, 2]) == 2
+assert find_it([0, 1, 0, 1, 0]) == 0
+assert find_it([1, 2, 2, 3, 3, 3, 4, 3, 3, 3, 2, 2, 1]) == 4
 
 

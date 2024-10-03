@@ -17,9 +17,8 @@ def find_it(a):
         count = 0
         for j in range(len(a)):
             if a[i] == a[j]:
-                if j != i:
-                    count += 1
-        if count % 2 == 0:
+                count += 1
+        if count % 2 != 0:
             break
     return a[i]
 

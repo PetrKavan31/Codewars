@@ -23,5 +23,5 @@ def key_with_odd_value():
             return key
 
 
-b = [12, 8, 8, 42, 12]
+b = [12, 8, 8, 42, 42, 42, 12]
 print(key_with_odd_value())

@@ -1,17 +1,15 @@
+from collections import Counter
+
+
 def count_occurrence(a):
-    d = {}
+    cnt = Counter()
     for i in a:
-        if i in d:
-            d[i] += 1
-        else:
-            d[i] = 1
-    return d
+        cnt[i] += 1
+    return cnt
 
 
 def key_with_odd_value():
-    for key, val in count_occurrence(b).items():
-        if val % 2 != 0:
-            return key
+    return next(d for (d, i) in count_occurrence(b).items() if i % 2 != 0)
 
 
 b = [12, 8, 8, 42, 12]

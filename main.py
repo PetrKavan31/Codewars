@@ -1,9 +1,10 @@
 def count_occurrence(a):
     d = {}
     for i in a:
-        x = a.count(i)
-        d.update({i: x})
-
+        if i in d:
+            d[i] += 1
+        else:
+            d[i] = 1
     return d
 
 

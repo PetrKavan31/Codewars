@@ -11,14 +11,34 @@
 #
 # Based on: https://leetcode.com/problems/two-sum/
 
+# ------------------------ MY SOLUTION: ----------------------------------------
 def two_sum(numbers, target):
     for i in range(len(numbers)):
-        a = target - numbers[i]
         for j in range(len(numbers)):
-            if numbers[j] == a:
-                break
-    return (i,j)
+            if i != j and numbers[i] + numbers[j] == target:
+                return i, j
 
 
-assert two_sum([1, 2, 3], 4) == (0, 2) or (2, 0)
-assert two_sum([3, 2, 4], 4) == (1, 2) or (2, 1)
+print(two_sum([1, 2, 3], 4))
+assert two_sum([1, 2, 3], 4) in ((0, 2), (2, 0))
+print(two_sum([3, 2, 4], 6))
+assert two_sum([3, 2, 4], 6) in ((1, 2), (2, 1))
+print(two_sum([2, 1, 3, 8], 4))
+assert two_sum([2, 1, 3, 8], 4) in ((1, 2), (2, 1))
+
+
+# ---------------------------- best practices, for example: ---------------------
+
+def two_sum(nums, t):
+    for i, x in enumerate(nums):
+        for j, y in enumerate(nums):
+            if i != j and x + y == t:
+                return [i, j]
+
+# --------------------------------------------------------------------------------
+
+import itertools
+
+
+def two_sum(numbers, target):
+    return next((i, j) for i, j in itertools.combinations(range(len(numbers)), 2) if numbers[i] + numbers[j] == target)

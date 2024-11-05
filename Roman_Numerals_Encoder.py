@@ -15,16 +15,12 @@ def solution(c):
          (100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'),
          (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I'))
     aa = []
-    for i in a:
-        if c // i[0] == 1:
-            c = c - i[0]
-            aa.append((i[1]))
-        if c // i[0] == 2:
-            c = c - (i[0]*2)
-            aa.append(2*(i[1]))
-        if c // i[0] == 3:
-            c = c - (i[0]*3)
-            aa.append(3*(i[1]))
+
+    for value, letter in a:
+        const = c // value
+        if const != 0:
+            c = c - (value * const)
+            aa.append(const * letter)
     return "".join(aa)
 
 

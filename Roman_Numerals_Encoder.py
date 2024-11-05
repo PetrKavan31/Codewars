@@ -9,19 +9,19 @@
 # 2008 is written as 2000=MM, 8=VIII; or MMVIII.
 # 1666 uses each Roman symbol in descending order: MDCLXVI.
 
-def solution(c):
+def solution(num):
 
-    a = ((1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'),
+    numbers = ((1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'),
          (100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'),
          (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I'))
-    aa = []
+    roman = []
 
-    for value, letter in a:
-        const = c // value
+    for value, letter in numbers:
+        const = num // value
         if const != 0:
-            c = c - (value * const)
-            aa.append(const * letter)
-    return "".join(aa)
+            num = num - (value * const)
+            roman.append(const * letter)
+    return "".join(roman)
 
 
 assert solution(1889) == 'MDCCCLXXXIX'

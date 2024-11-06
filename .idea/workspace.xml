@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0f75bf-46ea-48cc-a1dd-7dcb4e3b2f78" name="Changes" comment="it works - draft">
+    <list default="true" id="6e0f75bf-46ea-48cc-a1dd-7dcb4e3b2f78" name="Changes" comment="edit code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Convert_string_to_camel_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Convert_string_to_camel_case.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,11 +299,18 @@
       <option name="project" value="LOCAL" />
       <updated>1730895936788</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="edit code">
+      <option name="closed" value="true" />
+      <created>1730916176817</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1730916176817</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit two files from project Python 3" />
     <MESSAGE value="first step to find solution" />
     <MESSAGE value="find solution" />
     <MESSAGE value="edit text" />
@@ -328,6 +335,7 @@
     <MESSAGE value="edit" />
     <MESSAGE value="it works" />
     <MESSAGE value="it works - draft" />
-    <option name="LAST_COMMIT_MESSAGE" value="it works - draft" />
+    <MESSAGE value="edit code" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit code" />
   </component>
 </project>

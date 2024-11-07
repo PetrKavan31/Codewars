@@ -1,10 +1,10 @@
 def to_camel_case(c):
     c = c.replace("-", "_")
     c = c.split('_')
-    y = c[0]
+    y = list(c[0])
     # y.append(c[0])
     # for i in c[1:]:
-    x = [i.capitalize() for i in c[1:]]
+    y = [i.capitalize() for i in c[1:]]
     z = ''.join(y)
     return z
 

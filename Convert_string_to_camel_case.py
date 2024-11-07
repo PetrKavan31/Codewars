@@ -12,15 +12,17 @@
 
 
 def to_camel_case(c):
-    c = c.replace("-", "_")
-    c = c.split('_')
-    y = list()
-    y.append(c[0])
-    for i in c[1:]:
-        x = i.capitalize()
-        y.append(x)
-    z = ''.join(y)
-    return z
+    my_str = c.replace("-", "_")
+    my_list = my_str.split('_')
+    y = list(my_list[0])
+    # for i in c[1:]:
+    #     x = i.capitalize()
+    #     y.append(x)
+    # y = [i.capitalize() for i in c[1:]]
+
+    # z = ''.join(y)
+    # return z
+    return "".join([i.capitalize() for i in my_list[1:]])
 
 
 assert to_camel_case('the-Stealth-Warrior') == 'theStealthWarrior'

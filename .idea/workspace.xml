@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0f75bf-46ea-48cc-a1dd-7dcb4e3b2f78" name="Changes" comment="edit and test">
+    <list default="true" id="6e0f75bf-46ea-48cc-a1dd-7dcb4e3b2f78" name="Changes" comment="final version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Convert_string_to_camel_case.py" beforeDir="false" afterPath="$PROJECT_DIR$/Convert_string_to_camel_case.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_code.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_code.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,11 +321,18 @@
       <option name="project" value="LOCAL" />
       <updated>1730966518076</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="final version">
+      <option name="closed" value="true" />
+      <created>1731159329098</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1731159329098</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edit text" />
     <MESSAGE value="create list comprehension" />
     <MESSAGE value="edit assert solution" />
     <MESSAGE value="edit new file" />
@@ -352,6 +357,7 @@
     <MESSAGE value="edit code" />
     <MESSAGE value="test" />
     <MESSAGE value="edit and test" />
-    <option name="LAST_COMMIT_MESSAGE" value="edit and test" />
+    <MESSAGE value="final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version" />
   </component>
 </project>

@@ -34,3 +34,20 @@ def to_camel_case(c):
         y.append(x)
     z = ''.join(y)
     return z
+
+# ------------------------ Alternative version -----------------------------
+
+def to_camel_case(c):
+    result = ''
+    capitalize = False
+    for char in c:
+        if char in ('-', '_'):
+            capitalize = True
+        else:
+            if capitalize:
+                result += char.upper()
+                capitalize = False
+            else:
+                result += char
+    return result
+
